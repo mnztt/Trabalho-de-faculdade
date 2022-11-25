@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.titulo > h1{
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    margin: 3rem 0px 1em 0em;
+}
+
+.imagem_titulo{
+    position: absolute;
+    width: 9rem;
+    height: 7rem;
+    margin: -8rem 1rem 0rem 26rem;
+}
+
+.foto_pag1 > img{
+    position: absolute;
+    box-shadow: -6px 6px 10px 2px rgb(95, 92, 92);
+    margin-left: 31rem;
+    margin-top: -42rem;
+    height: 23rem;
+    width: 30rem;
+}
+
+.caixa_laranja{
+    background-color: #ff613a;
+    position: relative;
+    margin-left: 44rem;
+    height: 45.2rem;
+    width: 20rem;
+}
+
+.caixa_cinza{
+    background-color: #ded9d9e1;
+    position: absolute;
+    margin-left: 64rem;
+    margin-top: -43rem;
+    height: 38rem;
+    width: 36rem;
+}
+
+.caixa_cinza > h1{
+    text-align: left;
+    font-size: 2.6em;
+    margin-top: 7rem;
+    padding-left: 2.7rem;
+}
+
+.caixa_cinza > p{
+    text-align: left;
+    margin-left: 2.7rem;
+    margin-right: 1.7rem;
+    font-size: 1.4em;
+}
+
+.botao{
+    font-size: 1em;
+    border: 1px solid;
+    display: inline-block;
+    margin: 10px 10px 10px 45px;
+    padding: 10px 33px 10px 33px;
+}
+
+.chat{
+    position: absolute;
+    margin: 42em 0em 0em 97em;
+}
+
+#botao_chat{
+    position: relative;
+    margin-left: -40px;
+    height: 47px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+#botao_chat:hover{
+    cursor: pointer;
+}
+
+.pag2{
+    font-family: 'PT Sans', sans-serif;
+    height: 57em;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    border: 1px solid rgba(146, 141, 141, 0.3);
+    text-align: center;
+    margin-top: 3.5em;
+    color: white;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://wallpaper.dog/large/20364190.jpg) no-repeat;
+    background-size: cover;
+}
+
+.pag2 > h1{
+    font-size: 100px;
+    padding-top: 1.9em;
+    margin: 110px 0px 0px 5px;
+}
+
+.pag2 > p{
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.botao2{
+    position: relative;
+    background-color: #ff613a;
+    font-size: 1em;
+    border: 1px solid #ff613a;
+    display: inline-block;
+    margin: 20px 10px 10px -5px;
+    padding: 10px 33px 10px 33px;
+}
+
+.pag3{
+    margin-top: 2.5em;
+}
+
+.pag3 > img{
+    margin: 0px 0px 0px 225px;
+    height: 27em;
+    width: 45em;
+}
+
+.pag3 > h1{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 40px;
+    margin: 105px 0px 0px 40px;
+}
+
+.pag3 > p{
+    font-size: 18px;
+    margin: -230px 70px 0px 55em;
+}
+
+footer{
+    background-color: #333333;
+    height: 9em;
+    margin-top: 14em;
+    color: white;
+    text-align: center;
+    padding-top: 5em;
+}
